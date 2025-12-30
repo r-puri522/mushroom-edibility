@@ -137,3 +137,23 @@ This project is designed to be run in **Google Colab**.
 
 After uploading the repository to GitHub, open the notebook using: https://colab.research.google.com/drive/1w3274Xwo8C8md8iPraaK4ONNZUBMtfJd?usp=sharing
 
+### Dataset note
+The notebook expects the dataset to be loaded in Colab. You may:
+- Upload the dataset directly to Colab and adjust the file path, or  
+- Mount Google Drive and load the dataset from Drive
+
+---
+
+## Tools & Libraries
+
+- Python (Google Colab)
+- TensorFlow / Keras
+- `scikit-learn`
+- `pandas`, `numpy`
+- `matplotlib`, `seaborn`
+
+---
+
+## Conclusion
+
+This project demonstrates that for **high-dimensional, multi-categorical datasets with nonlinear structure**, deep feed-forward neural networks can dramatically outperform simpler linear models. The comparison provides clear empirical justification for when increased model complexity is not only acceptable, but necessary.
